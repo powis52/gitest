@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.Header {
+  display: grid;
+  min-height: 70px;
+  background: #a4d0ff;
+  background: linear-gradient(90deg, #a4d0ff 0%, #a8ffaa 47%, #ffd986 100%);
+  grid-auto-flow: column;
+  grid-template-columns: 1fr 6fr 0.5fr;
+  grid-template-rows: 2fr 1fr;
+  min-width: 768px;
+  border: 2px solid #d66903;
+  border-radius: 5px;
+}
+
+.logo {
+  display: grid;
+  justify-content: start;
+  align-content: center;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  padding: 10px;
+}
+
+.Header ul {
+  display: grid;
+  justify-self: stretch;
+  grid-auto-flow: column;
+  align-self: center;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  justify-content: space-around;
+  grid-auto-columns: 1fr;
+}
+
+.Header ul li {
+  display: grid;
+  justify-content: normal;
+  align-content: start;
+  text-decoration: none;
+  justify-items: stretch;
+  margin: 10px;
+  background: #cce5ff;
+  border: 2px solid #ce9324;
+  border-radius: 5px;
+}
+
+.Header ul li:hover {
+  background-color: #96fa7d;
+}
+
+.Header ul li a {
+  display: grid;
+  align-self: start;
+  justify-items: center;
+  align-self: stretch;
+  padding: 8px;
+}
+
+.login-header {
+  position: absolute;
+  right: 35%;
+  top: 35%;
+  display: grid;
+  width: 460px;
+  border: 2px solid #d66903;
+  border-radius: 5px;
+  float: right;
+  background-color: #e0e0e0;
+  justify-items: stretch;
+}
+
+.reg-header {
+  position: absolute;
+  right: 35%;
+  top: 35%;
+  display: grid;
+  width: 460px;
+  border: 2px solid #d66903;
+  border-radius: 5px;
+  float: right;
+  background-color: #e0e0e0;
+  justify-items: stretch;
+}
+
+.log-but {
+  display: grid;
+  align-self: start;
+  justify-self: end;
+  margin: 10px;
+  width: 70px;
+  border: 2px solid #d66903;
+  background-color: #9bff7c;
+}
+
+.login-header form {
+  display: grid;
+}
+
+.bg-model-log {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: grid;
+  justify-items: center;
+}
+
+.bg-model-reg {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: grid;
+  justify-items: center;
+}
+
+.bureliai {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 345px);
+  align-content: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.burelis {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  margin: 12px;
+  padding-top: 8px;
+  border: 2px solid #d66903;
+  border-radius: 5px;
+}
+
